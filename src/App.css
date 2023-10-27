@@ -1,38 +1,138 @@
-.App {
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading
+.headingDiv {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.upper-heading {
+  font-size: 28px;
+} */
+.headingDiv {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.headingDiv img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto 10px; /* Center the image and add spacing below it */
+}
+
+.upper-heading {
+  font-size: 28px;
+}
+
+/* Center the heading text */
+.upper-heading {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* List */
+.list-content-div {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content-para {
+  font-size: 18px;
+  color: #555;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list-div {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.App-link {
-  color: #61dafb;
+.lists {
+  list-style: decimal inside;
+  padding-left: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.list {
+  font-size: 16px;
+  color: #333;
+  margin: 8px 0;
+}
+
+/* Content Items */
+.content-div {
+  margin-top: 20px;
+}
+
+.item-div {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  margin-bottom: 20px;
+}
+
+.item-heading {
+  font-size: 24px;
+  color: #333;
+  margin-top: 0;
+}
+
+.img-div {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.item-content-div {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* Add some spacing and border to separate content items */
+.item-div + .item-div {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.blog-owner {
+  text-align: center; /* Center the text */
+  font-size: 16px;
+  color: #666;
+  margin-top: 30px; /* Add margin for spacing */
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 10px;
   }
 }
