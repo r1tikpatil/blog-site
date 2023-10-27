@@ -34,17 +34,20 @@ body {
   padding: 10px;
 }
 
-.headingDiv img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  display: block;
-  margin: 0 auto 10px; /* Center the image and add spacing below it */
+/* Style for the headingDiv container */
+.headingDiv {
+  text-align: center; /* Center-align the text */
+  background-color: #f0f0f0; /* Background color for the heading container */
+  padding: 20px; /* Add some padding for spacing */
 }
 
-.upper-heading {
-  font-size: 28px;
+/* Style for the heading text */
+.blog-heading {
+  font-size: 24px; /* Adjust the font size to your preference */
+  color: #333; /* Text color */
+  font-weight: bold; /* Make the text bold */
+  text-transform: capitalize; /* Capitalize the text */
+  margin: 0; /* Remove any default margin to ensure it's centered */
 }
 
 /* Center the heading text */
@@ -116,6 +119,12 @@ body {
   color: #555;
   line-height: 1.6;
   margin-top: 20px;
+}
+
+.content-side-para {
+  color: black;
+  display: inline;
+  font-weight: 600;
 }
 
 /* Add some spacing and border to separate content items */
