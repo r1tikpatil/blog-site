@@ -24,7 +24,7 @@ const data2 = [
     ],
   },
   {
-    name: "The Benefits of Mindfulness Meditation:",
+    name: "The Benefits of Mindfulness Meditation",
     img: "https://img.freepik.com/premium-vector/flat-mindfulness-meditation-infographic-with-concentration-increase-self-esteem-improve-reduce-stress-kindness-increase-control-pain-manage-anxiety-descriptions-vector-illustration_1284-79600.jpg?size=626&ext=jpg&ga=GA1.1.550003581.1695189351&semt=ais",
     content: [
       {
@@ -50,7 +50,7 @@ const data2 = [
     ],
   },
   {
-    name: "How to Practice Mindfulness Meditation:",
+    name: "How to Practice Mindfulness Meditation",
     img: "",
     content: [
       {
@@ -81,7 +81,7 @@ const data2 = [
     ],
   },
   {
-    name: "Tips for Successful Meditation:",
+    name: "Tips for Successful Meditation",
     img: "https://img.freepik.com/free-vector/tips-anxiety-infographic_23-2148537113.jpg?size=626&ext=jpg&ga=GA1.1.550003581.1695189351&semt=ais",
     content: [
       {
